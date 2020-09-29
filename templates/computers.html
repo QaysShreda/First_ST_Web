@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computers</title>
+</head>
+<body>
+ <form action="/" method="POST">
+     <input type = "text" placeholder= "brand" name="brand">
+     <input type = "text" placeholder= "Serial" name="serial">
+
+     <input type="submit" value="Add PC">
+
+
+ </form>
+   <br/> <br/>
+    {% for comp in comp %}
+ <h1>
+   {{comp.brand}}
+ </h1>
+
+    {%endfor%}
+
+</body>
+</html>

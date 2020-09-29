@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>DOE-Tubas</title>
+    <link rel="stylesheet" type ="text/css" href="{{url_for('static',filename='assets/bootstrap/css/bootstrap.min.css')}}">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" type ="text/css" href="{{url_for('static',filename='assets/fonts/fontawesome-all.min.css')}}">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='assets/css/Navigation-Clean.css')}}">
+</head>
+
+<body>
+    <div class="col"></div>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="#">Directorate of Education</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    <div class="col" style="height: 117px;"></div>
+    </div>
+    <section style="padding-right: 50px;padding-left: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center" style="background-size: auto;margin-right: auto;margin-left: auto;padding-bottom: 5px;">
+                    <a href="{{url_for('doe_pc')}}">
+                    <div><img class="align-content-center" src="static/assets/img/computer.png" style="width: 100px;height: 100px;margin: 0px;background-size: auto;padding-top: 0px;margin-left: auto;margin-right: auto;"></div>
+                    <h1 style="font-size: 24px;">Computers</h1>
+                        </a>
+                </div>
+                <div class="col text-center">
+                    <div><img src="static/assets/img/network.png" style="width: 100px;height: 100px;"></div>
+                    <h1 style="font-size: 24px;">Network</h1>
+                </div>
+                <div class="col text-center">
+                    <div><img src="static/assets/img/printer.png" style="width: 100px;"></div>
+                    <h1 style="font-size: 22px;">Printers</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="padding-top: 5px;">
+                <div class="col text-center">
+                    <div><img src="static/assets/img/L_printer.png" style="width: 100px;height: 100px;"></div>
+                    <h1 style="font-size: 24px;">Larg Printer</h1>
+                </div>
+                <div class="col text-center">
+                    <div></div><img src="static/assets/img/cctv.png" style="width: 100px;height: 100px;">
+                    <h1 style="font-size: 24px;">Camera</h1>
+                </div>
+                <div class="col text-center">
+                    <div></div><img src="static/assets/img/telephone.png" style="width: 100px;height: 100px;">
+                    <h1 style="font-size: 24px;">Telephone</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+</body>
+
+</html>
